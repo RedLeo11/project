@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block header %}
+<header>
+
+    <div class="header-1">
+    
+        <a href="#" class="logo"> <i class="fas fa-shopping-bag"></i>  shopping </a>
+    
+        <div class="form-container">
+            <form action="">
+                <input type="search" placeholder="search products" id="search" /> 
+                <label for="search" class="fas fa-search"></label>
+            </form>
+        </div>
+    
+    </div>
+    
+    <div class="header-2">
+    
+        <div id="menu" class="fas fa-bars"></div>
+    
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">home</a></li>
+                <li><a href="#arrival">arrival</a></li>
+                <li><a href="#featured">featured</a></li>
+                <li><a href="#gallery">gallery</a></li>
+                <li><a href="#deal">deal</a></li>
+            </ul>
+        </nav>
+    
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-user"></a>
+        </div>
+    
+    </div>
+    
+    </header>
+{% endblock header %}
